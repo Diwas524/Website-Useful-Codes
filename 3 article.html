@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+  
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column" style="background-color:white;">
+    <div class="card">
+  <img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-10-18-18-28-30-735x400.png" alt="John" style="width:100%">
+  <a href="https://aihubprojects.com/football-game-prediction-ai-project/"><h4>FOOTBALL GAME PREDICTION – DOWNLOAD CODE FREE</h4></a>
+  
+</div>
+  </div>
+  
+  <div class="column" style="background-color:white;">
+    <div class="card">
+  <img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-10-18-18-20-39-735x400.png" alt="ai projects" style="WIDTH:100%">
+  <a href="https://aihubprojects.com/create-your-own-screen-recorder-python-project/"><h3>CREATE YOUR OWN SCREEN RECORDER – CODE AVAILABLE </h3></a>
+  
+</div>
+  </div>
+  
+  <div class="column" style="background-color:white;">
+    <div class="card">
+  <img src="https://aihubprojects.com/wp-content/uploads/2019/12/maxresdefault-1-735x400.jpg" alt="John" style="width:80%">
+  <a href="https://aihubprojects.com/download-youtube-video-using-python/"><h3>DOWNLOAD YOUTUBE VIDEO USING PYTHON - CODE AVAILABLE </h3></a>
+  
+</div>
+  </div>
+	
+	
+</div>
+
+</body>
+</html>
