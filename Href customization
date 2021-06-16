@@ -1,0 +1,8 @@
+a {
+  text-decoration: none !important;
+  box-shadow: none !important;
+font-weight:bold !important;
+}
+a:hover {
+  color: black !important;
+}
